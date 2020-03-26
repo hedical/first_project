@@ -1,3 +1,30 @@
-h1 {
-    color: red;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3498db;
+    height: 8vh;
+}
+.nav h1{
+    color:whitesmoke;
+    margin-left: 20px;
+    align-self: center;
+}
+.nav ul li{
+    color:whitesmoke;
+    list-style: none;
+    margin-right: 20px;
+    display: inline;
+    align-self: center;
+}
+.nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li:not(:last-child){
+    margin-right: 10px;
 }
