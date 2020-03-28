@@ -1,0 +1,11 @@
+.home{
+    height: 92vh;
+    background-color: aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.profile-image{
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
